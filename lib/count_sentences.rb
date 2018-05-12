@@ -34,3 +34,5 @@ class String
     questionArray.length + periodArray + exclamationArray
   end
 end
+
+self.count_sentences
