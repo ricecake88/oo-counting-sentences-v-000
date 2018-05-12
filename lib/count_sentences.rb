@@ -27,9 +27,8 @@ class String
   end
 
   def count_sentences
-    num = 0
-    self.each do |sentence|
-      num+=1
-    end
+    questionArray = self.split("?")
+    periodArray = self.split(".")
+    exclamationArray = self.split("!")
   end
 end
