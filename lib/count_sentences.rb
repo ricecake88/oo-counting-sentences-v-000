@@ -29,7 +29,7 @@ class String
   def count_sentences
     questionArray = self.split(/[!.?]/)
     binding.pry
-    questionArray.reject?("")
+    questionArray.reject?("&:empty?")
     #questionArray.length + periodArray + exclamationArray
   end
 end
