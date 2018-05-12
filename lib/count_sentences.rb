@@ -35,4 +35,4 @@ class String
   end
 end
 
-self.count_sentences
+scount_sentences
