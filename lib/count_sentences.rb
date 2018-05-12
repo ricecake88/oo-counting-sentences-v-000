@@ -30,5 +30,6 @@ class String
     questionArray = self.split("?")
     periodArray = self.split(".")
     exclamationArray = self.split("!")
+    questionArray.length + periodArray + exclamationArray
   end
 end
