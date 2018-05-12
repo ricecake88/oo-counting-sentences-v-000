@@ -35,5 +35,6 @@ class String
   end
 end
 
-str = "This, well, is a sentence. This is too!! And so is this, I think? Woo...".new
+str = String.new
+str = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
 puts str.count_sentences
