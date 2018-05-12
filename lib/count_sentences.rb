@@ -29,8 +29,8 @@ class String
   def count_sentences
     questionArray = self.split(/[!.?]/)
     binding.pry
-    newArray = questionArray.reject?(&:empty?)
-    newArray.size
+    questionArray.reject!(&:empty?)
+    questionArray.length
   end
 end
 
